@@ -1,0 +1,20 @@
+{
+  "name": "livereloader",
+  "version": "0.1.0",
+  "description": "Simple HTTP server with livereload functionality. No setup, other apps or browser extensions required.",
+  "main": "index.js",
+  "bin": { "livereloader" : "./index.js" },
+  "dependencies": {
+    "better-livereload": "~0.3.1",
+    "connect": "~2.8.5",
+    "connect-livereload": "~0.2.0",
+    "noptify": "~0.0.3"
+  },
+  "homepage": "http://github.com/dundalek/livereloader",
+  "author": "Jakub Dundalek <dundalek@gmail.com> (http://dundalek.com/)",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/dundalek/livereloader.git"
+  },
+  "license": "MIT"
+}
