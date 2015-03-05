@@ -3,6 +3,22 @@
 
 Simple HTTP server with livereload functionality. No setup, other apps or browser extensions required.
 
+## DEPRECATED: I switched to [browser-sync](http://www.browsersync.io/).
+
+Install browser-sync:
+```
+npm install -g browser-sync
+```
+
+Then put an alias into your `~/.bashrc`:
+```
+alias s="browser-sync start --server --directory --files '**/*'"
+```
+
+You are done, use the `s` command inside your project.
+
+---
+
 ## Install
 
 ```
